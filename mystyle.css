@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+
+body {
+  font-family: 'Source Sans Pro';
+  background: #29335C;
+  background-size: cover;
+  color: black;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.everything {
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.cart {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 20px 50px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+  vertical-align: middle;
+}
+
+.flip {
+  background-color: black;
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.everything {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+
+.aa {
+  width: 1000px;
+}
+
+.hide1 {
+  animation: hiding 0.3s ease-in;
+}
+
+@keyframes hiding {
+  from {
+    background-color: white;
+  }
+
+  to {
+    background-color: black
+  }
+}
+
+.clicks {
+  color: white;
+  font-size: 20;
+  position: relative;
+}
+
+.pairs {
+  color: white;
+  font-size: 20;
+  position: relative;
+}
+
+#numberOfClick {
+  font-size: 30;
+  color: yellow;
+}
+
+#numberOfPairs {
+  font-size: 30;
+  color: green;
+}
